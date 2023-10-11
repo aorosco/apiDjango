@@ -1,0 +1,28 @@
+# Archivos y directorios específicos de Django
+__pycache__/
+*.pyc
+*.pyo
+*.db
+
+# Archivos generados por el sistema operativo
+.DS_Store
+
+# Archivos de registro
+log/
+logs/
+
+# Archivos de entorno (si utilizas variables de entorno)
+.env
+
+# Archivos de configuración locales
+local_settings.py
+
+# Archivos de base de datos locales (SQLite)
+*.sqlite3
+
+# Archivos de usuario
+media/
+static/
+
+# Dependencias de Python (generalmente en un entorno virtual)
+venv/

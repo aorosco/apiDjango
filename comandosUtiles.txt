@@ -1,0 +1,29 @@
+pip freeze
+pip freeze > requirements.txt
+nano requirements.txt 
+touch .gitignore
+nano .gitignore 
+git init
+
+tree
+
+virtualenv venv
+source venv/bin/activate
+pip freeze
+pip install django
+python -m pip install Pillow
+pip install djangorestframework
+
+django-admin startproject regApp
+python manage.py startapp academico
+cd regApp/
+python manage.py startapp academico
+code .
+ 
+solo para borrar y reiniciar
+python manage.py flush
+
+python manage.py makemigrations
+python manage.py migrate
+python3 manage.py createsuperuser
+
